@@ -1,0 +1,81 @@
+*{
+    margin:0%; 
+    padding: 0%;
+}
+
+header{
+    width: 100vw;
+}
+#titulo{
+    position: center;
+    font-size: 22px;
+    padding-right: 1vh;
+    font-family: DejaVu Sans Mono, monospace;
+    padding-bottom: 1vw;
+}
+nav{
+    width: 100vw;
+    grid-column: span 6;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    height: 7vh;
+    background-color: burlywood;
+    padding-right: 2vh;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    width: 20vh;
+    padding-right: 4vh;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+div img{
+    width: 30vw;
+}
+
+.containers img{
+    width: 280px;
+    padding-top: 3vw;
+    padding-bottom: 4vw;
+}
+.containers{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+
+.containerp img{
+    width: 280px;
+    padding-top: 3vw;
+    padding-bottom: 4vw;
+}
+.containerp{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+.containerl img{
+    width: 220px;
+    padding-top: 3vw;
+    padding-bottom: 4vw;
+}
+.containerl{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    margin-left: 14%;
+}
+.containerl p{
+    padding-bottom: 4vw;
+    text-align: justify;
+    padding-right: 4vh;
+}
+#livros{
+    padding-top: 4vw;
+    padding-bottom: 6vw;
+    padding-right: 4vh;
+    padding-left: 4vh;
+}

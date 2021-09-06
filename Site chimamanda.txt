@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chimamanda Ngozi Adichie</title>
+        <meta name="author" content="Ana Clara Barcella Miskulin"/>
+        <meta name="description" content="GRID Layout"/>
+        <link href="./css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <header> 
+            <nav>
+                <ul>
+                    <li><a href="#h-sobre">Sobre</a></li>
+                    <li><a href="#h-livros">Livros</a></li>
+                    <li><a href="#h-onde comprar">Onde comprar</a></li>
+                </ul>
+            </nav> 
+        </header>
+        
+        <main>
+
+            <h1 id="h-sobre">Sobre</h1>
+            <section id="Sobre" class="container">
+            <div id="foto1">
+                   <img src="./Imagens/chimamanda.jpg">
+            </div>
+            <div> 
+                   <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec diam sodales, elementum purus in, ullamcorper nulla. Vestibulum sit amet posuere lorem, a condimentum est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus tincidunt tortor, sed dignissim neque molestie sit amet. Aenean eget gravida lacus, a egestas lacus. Cras viverra, dui in fringilla mollis, odio lacus luctus mauris.</p>
+            </div>
+            <div id="foto2">
+                   <img src="./Imagens/chimamandan.png">
+            </div>
+            </section>
+
+
+            <h1 id="h-livros">Livros</h1> 
+            <section id="Livros" class="container">
+            <div id="livro">
+                    <img src="./Imagens/no seu pescoço.jpg">
+            </div>
+            <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi, scelerisque viverra nunc. Morbi faucibus mi a urna. </p>
+            </div> 
+            <div id="livro">
+                    <img src="./Imagens/hibisco roxo.jpg">
+            </div>
+            <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi, scelerisque viverra nunc. Morbi faucibus mi a urna. </p>
+            </div>
+            <div id="livro">
+                    <img src="./Imagens/americanah.jpg">
+            </div>
+            <div> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi, scelerisque viverra nunc. Morbi faucibus mi a urna. </p>
+            </div>
+          </section>
+
+          <h1 id="h-onde comprar">Onde Comprar</h1> 
+          <section id="Onde comprar" class="container">
+          <div> 
+                   <p>Amazon</p> 
+                   <a href="https://www.amazon.com.br/s?k=chimamanda+ngozi+adichie&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=19XHE53X4ZUPO&sprefix=chima%2Caps%2C410&ref=nb_sb_ss_ts-doa-p_1_5"></a>
+          </div>
+          <div> 
+                   <p>Submarino</p>
+          <div>
+                   <a href="https://www.submarino.com.br/busca/chimamanda?rc=chimamanda+"></a>
+          </div>
+          </div>
+          <div> 
+                  <p>Americanas</p>
+          <div> 
+                  <a href="https://www.americanas.com.br/busca/chimamanda-ngozi-adichie?chave_search=acterm"></a>
+          </div>
+          </div>
+        </section>
+
+
+
+    </main>
+    </body>
+    </html>
+
+
+
+
+*{
+    margin:0%; 
+    padding: 0%;
+}
+
+header{
+    width: 100vw;
+    position: fixed;
+}
+nav{
+    width: 100vw;
+    padding: 6v;
+    grid-column: span 6;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    height: 5vh;
+    background-color: burlywood;
+    position: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    width: 20vh;
+    padding-right: 4vh;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+div img{
+    width: 30vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chimamanda Ngozi Adichie</title>
+        <meta name="author" content="Ana Clara Barcella Miskulin"/>
+        <meta name="description" content="GRID Layout"/>
+        <link href="./css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <header>
+            <nav>
+              <div id="titulo">
+                    <h>Chimamanda Ngozi Adichie</h>
+              </div> 
+                <ul>
+                    <li><a href="#h-sobre">Sobre</a></li>
+                    <li><a href="#h-livros">Livros</a></li>
+                   <ul>
+                        <li><a href="#h-no seu pescoço">No seu pescoço</a></li>
+                        <li><a href="#h-hibisco roxo">Hibisco roxo</a></li>
+                        <li><a href="#h-americanah">Americah</a></li>
+                    </ul>
+                    <li><a href="#h-onde comprar">Onde comprar</a></li>
+                </ul>
+            </nav> 
+        </header>
+        
+        <main>
+
+            <h1 id="h-sobre">Sobre</h1>
+            <section id="Sobre" class="container">
+            <div id="foto-1">
+                   <img src="./Imagens/chimamanda.jpg">
+            </div>
+            <div> 
+                   <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec diam sodales, elementum purus in, ullamcorper nulla. Vestibulum sit amet posuere lorem, a condimentum est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus tincidunt tortor, sed dignissim neque molestie sit amet. Aenean eget gravida lacus, a egestas lacus. Cras viverra, dui in fringilla mollis, odio lacus luctus mauris.</p>
+            </div>
+            <div id="foto2">
+                   <img src="./Imagens/chimamandan.png">
+            </div>
+            </section>
+
+
+            <h1 id="h-livros">Livros</h1> 
+            <section id="Livros" class="container">
+            <div id="h-no seu pescoço">
+                    <img src="./Imagens/no seu pescoço.jpg">
+            </div>
+            <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi, scelerisque viverra nunc. Morbi faucibus mi a urna. </p>
+            </div> 
+            <div id="h-hibisco roxo">
+                    <img src="./Imagens/hibisco roxo.jpg">
+            </div>
+            <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi, scelerisque viverra nunc. Morbi faucibus mi a urna. </p>
+            </div>
+            <div id="h-americanah">
+                    <img src="./Imagens/americanah.jpg">
+            </div>
+            <div> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi, scelerisque viverra nunc. Morbi faucibus mi a urna. </p>
+            </div>
+          </section>
+
+          <h1 id="h-onde comprar">Onde Comprar</h1> 
+          <section id="Onde comprar" class="container">
+          <div> 
+                   <p>Amazon</p> 
+                   <a href="https://www.amazon.com.br/s?k=chimamanda+ngozi+adichie&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss">https://www.amazon.com.br/</a>
+          </div>
+          <div> 
+                   <p>Submarino</p>
+          <div>
+                   <a href="https://www.submarino.com.br/busca/chimamanda?rc=chimamanda+">https://www.submarino.com.br/</a>
+          </div>
+          </div>
+          <div> 
+                  <p>Americanas</p>
+          <div> 
+                  <a href="https://www.americanas.com.br/busca/chimamanda-ngozi-adichie?chave_search=acterm">https://www.americanas.com.br/</a>
+          </div>
+          </div>
+        </section>
+
+
+
+    </main>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin:0%; 
+    padding: 0%;
+}
+
+header{
+    width: 100vw;
+   
+}
+#titulo{
+    font-size: 22px;
+    padding-right: 1vh;
+    font-family: DejaVu Sans Mono, monospace;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+nav{
+    width: 100vw;
+    padding: 6vh;
+    grid-column: span 6;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    height: 7vh;
+    background-color: burlywood;
+    position: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    width: 20vh;
+    padding-right: 4vh;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#foto1{
+    width: -30px;
+}
+#livros{
+    padding-top: 4vw;
+    padding-right: 4vh;
+    padding-left: 4vh;
+}
